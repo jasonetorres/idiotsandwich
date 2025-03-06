@@ -17,7 +17,6 @@ const GORDON_GIFS = {
   excellent: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczdndDV1aThlNXpjeWZ6Z3F3eWI4aGliNG83bGl3YnBvOWhjMWVnNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYyoYPvz22wTXkQ/giphy.gif" // Perfect, happy Gordon
 };
 
-// Initialize OpenAI with the API key from environment variables
 const openai = new OpenAI({
   apiKey: import.meta.env.VITE_OPENAI_API_KEY,
   dangerouslyAllowBrowser: true
